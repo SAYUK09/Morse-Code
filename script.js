@@ -26,4 +26,6 @@ function translate(inputText){
         outputDiv.innerHTML=translatedText
         console.log(translatedText)
     })
+
+
 }
