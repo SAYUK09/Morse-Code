@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 *{
     margin: 0;
@@ -19,16 +19,17 @@ nav{
     background-color: #FCD34D;
     padding: 20px;
     font-size: larger;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Press Start 2P', cursive;
 
 }
 
 .mainDiv{
-    height: 75.5vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:url() no-repeat center;
+    justify-content: center;
+    background:url(https://i.pinimg.com/originals/08/aa/0f/08aa0f4c71c98e46d5cb12f4a2acfdcb.png) no-repeat center;
     background-size: cover;
 }
 
@@ -43,7 +44,8 @@ nav{
     text-align: center;
     font-size: 2rem;
     overflow: hidden;
-    box-shadow:4px 4px 9px black;
+    box-shadow: 0px 3px 12px 5px azure;
+    font-family:cursive;
 }
 
 ::placeholder {         
@@ -64,17 +66,24 @@ button{
 
 .outputDiv{
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.14936396922050066) 0%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0 0 0 / 89%) 0%);
     border: 2px solid black;
     width: 40%;
     height: 20vh;
     margin: 10px;
-    color: black;
+    color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 2rem;
     overflow: hidden;
-    box-shadow:4px 4px 9px black;
-    font-family:cursive;
+    box-shadow: 0px 3px 12px 5px azure;
+    
+}
+
+.bold{
+    font-weight: bolder;
 }
 
 footer{
